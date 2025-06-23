@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .mhf4u-course {
+    padding: 2rem 1rem;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .course-meta p {
+    margin: 0.4rem 0;
+    font-size: 1rem;
+  }
+  
+  .unit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+  
+  .unit-table th, .unit-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  
+  .unit-table thead {
+    background: #003366;
+    color: white;
+  }
+  
+  .unit-toggle {
+    display: block;
+    width: 100%;
+    background: #e9f0ff;
+    color: #003366;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .unit-toggle:hover {
+    background-color: #d2e2ff;
+  }
+  
+  .unit-content {
+    display: none;
+    background: white;
+    padding: 1rem 1.2rem;
+    border-left: 3px solid #003366;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .unit-content ul {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  
+  .unit-content li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    .unit-table th, .unit-table td {
+      font-size: 0.9rem;
+    }
+  
+    .unit-toggle {
+      font-size: 0.95rem;
+    }
+  
+    .unit-content li {
+      font-size: 0.9rem;
+    }
+  }
+  
