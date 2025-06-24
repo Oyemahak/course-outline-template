@@ -9,7 +9,7 @@ body {
   }
   
   h1, h2, h3 {
-    color: #002147;
+    color: #00427c;
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -54,7 +54,7 @@ body {
   }
   
   .unit-table thead {
-    background-color: #002147;
+    background-color: #00427c;
     color: #fff;
   }
   
@@ -65,7 +65,7 @@ body {
   
   .unit-toggle {
     background-color: #e0e6f0;
-    color: #002147;
+    color: #00427c;
     font-weight: 600;
     padding: 0.75rem 1rem;
     border: none;
@@ -79,13 +79,13 @@ body {
   }
   
   .unit-toggle:hover {
-    background-color: #cbd6e6;
+    background-color: #00427c;
   }
   
   .unit-content {
     display: none;
     background-color: #ffffff;
-    border-left: 4px solid #002147;
+    border-left: 4px solid #00427c;
     padding: 1rem 1.5rem;
     border-radius: 0 0 5px 5px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.06);
